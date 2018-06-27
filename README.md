@@ -19,4 +19,4 @@
 }
 ```
 
-[VIP Invisibility on HLMOD.RU](https://hlmod.ru/resources/vip-fast-reload.824/)
+[VIP Fast Reload on HLMOD.RU](https://hlmod.ru/resources/vip-fast-reload.824/)

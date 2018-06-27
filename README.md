@@ -12,10 +12,10 @@
 ```"FastReload" "0.1" // Recommended values from 0.1 to 1.0 , but you can try other values.```
 - Add phrase to vip_modules.phrases.txt
 ```
-"Invis"
+"FastReload"
 {
-   "ru"    "Прозрачность"
-   "en"    "Invis"
+   "ru"        "Быстрая перезарядка"
+   "en"        "Fast reload"
 }
 ```
 

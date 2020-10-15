@@ -1,11 +1,11 @@
-#pragma semicolon 1
+
+#pragma newdecls required
+
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
 #include <smlib>
 #include <vip_core>
-
-#pragma newdecls required
 
 public Plugin myinfo =
 {
@@ -86,7 +86,7 @@ public void OnPluginEnd()
 
 void IncreaseReloadSpeed(int iClient)
 {
-	if(IsFakeClient(iClient) && VIP_IsClientVIP(iClient) && !VIP_IsClientFeatureUse(iClient, g_sFeature))
+	if(IsFakeClient(iClient) || !VIP_IsClientVIP(iClient) || !VIP_IsClientFeatureUse(iClient, g_sFeature))
 		return;
 	
 	char sWeapon[64];
